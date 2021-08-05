@@ -29,7 +29,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: dto/331-lab06:latest
+        tags: next15926/se331-lab06:latest
     -
       name: prepare the docker-compose run
       run: |
