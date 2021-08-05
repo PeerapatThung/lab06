@@ -1,8 +1,8 @@
 name: Deploy to Aws Docker on merge
 'on':
-push:
-  brances:
-    - prod-docker
+  push:
+    branches:
+      - prod-docker
 
 jobs:
   docker:
