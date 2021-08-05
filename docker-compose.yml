@@ -3,4 +3,5 @@ services:
     web:
         image: "next15926/se331-lab06:latest"
         ports:
+            - 80:80
             - 8001:80
